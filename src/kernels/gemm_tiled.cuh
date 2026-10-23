@@ -41,7 +41,6 @@ __global__ void gemm_tiled_kernel(
     __shared__ TA tile_a[TILE][TILE];
     __shared__ TB tile_b[TILE][TILE];
 
-    using AccT = AccumulationTypeT<T>;
     AccT sum = AccT{0};
 
     // Process the K dimension in chunks of 16.
