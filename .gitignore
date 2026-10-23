@@ -1,0 +1,72 @@
+# Build directories (CMake / local builds)
+build/
+build-*/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+
+# Compiled binaries and libraries
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.so.*
+*.dll
+*.dylib
+*.exe
+*.out
+*.bin
+*.fatbin
+*.cubin
+*.ptx
+*.sass
+*.nvvm
+*.gpu
+
+# CUDA / profiling / debugger artifacts
+*.nvprof
+*.nsys-rep
+*.qdrep
+*.qdstrm
+*.ncu-rep
+*.prof
+core
+core.*
+
+# Test and benchmark outputs
+Testing/
+benchmark-results/
+benchmark-results*/
+*.csv.tmp
+*.log
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Python / Jupyter artifacts (for optional analysis notebooks)
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+ENV/
+
+# Local environment / secrets
+.env
+.env.*
+!.env.example
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
